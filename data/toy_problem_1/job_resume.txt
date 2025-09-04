@@ -1,0 +1,59 @@
+John Doe
+Email: johndoe@uwaterloo.ca | Phone: (555) 123-4567 | GitHub: github.com/johndoe | LinkedIn: linkedin.com/in/johndoe
+Education: Candidate for BCS, Honours Computer Science, University of Waterloo (Class of 2026)
+GPA: 3.7/4.0
+
+---
+
+Technical Skills
+- Languages: Python, Java, C++, JavaScript/TypeScript, SQL
+- Frameworks & Tools: React, Node.js, Express, Flask, Docker, Git, Linux, AWS (EC2, S3)
+- Interests: Full-stack development, distributed systems, cloud infrastructure, and AI/ML applications
+
+---
+
+Work Experience
+
+Software Engineering Intern – Shopify, Ottawa, ON
+May 2024 – August 2024
+- Contributed to the checkout optimization team, improving load times by ~18% by rewriting key backend endpoints in Go.
+- Implemented monitoring dashboards using Grafana + Prometheus, allowing the team to detect and respond to incidents 30% faster.
+- Collaborated with product managers and designers to ship A/B tested features that increased conversion rates for merchants.
+
+Backend Developer Co-op – RBC, Toronto, ON
+September 2023 – December 2023
+- Designed and deployed REST APIs in Java + Spring Boot, enabling integration with new payment systems.
+- Reduced cloud infrastructure costs by 12% by optimizing container deployments and database queries.
+- Mentored a junior intern on debugging workflows and Git best practices.
+
+Undergraduate Research Assistant – University of Waterloo, Department of CS
+January 2023 – April 2023
+- Assisted in a project on distributed graph databases, focusing on consistency and fault-tolerance.
+- Built experimental Python scripts to evaluate query latency across different replication strategies.
+
+---
+
+Projects
+
+Campus Connect (Hack the North 2023)
+- Full-stack web app to help Waterloo students find study partners with matching courses and schedules.
+- Built with React, Node.js, MongoDB, and deployed on AWS.
+- Project won Top 10 finalist among 500+ teams.
+
+Personal Finance Tracker
+- Developed a React + Flask app for tracking expenses and budgets, with user authentication via OAuth.
+- Integrated Plaid API for real-time banking transaction imports.
+- Used by 50+ beta testers at Waterloo.
+
+---
+
+Leadership & Extracurriculars
+- Waterloo Computer Science Club – VP, Events (2024): Organized technical workshops and invited speakers from Google and Meta.
+- Teaching Assistant – CS 135 (Designing Functional Programs): Held weekly tutorials and office hours for 100+ first-year students.
+
+---
+
+Additional Information
+- Passionate about building scalable systems and products that improve everyday life.
+- Constantly experimenting with new technologies through side projects.
+- Actively follow open-source contributions and publish articles on Medium about backend development practices.
