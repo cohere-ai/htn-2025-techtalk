@@ -1,3 +1,9 @@
+"""
+Warning: This demo was vibe-coded in a short amount of time for a talk.
+
+It is not production quality. Use at your own risk.
+"""
+
 import multiprocessing as mp
 import time
 import random
@@ -78,7 +84,7 @@ def _chat_worker(task: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
-def chat_n_times(
+def single_chat_n_times(
     n: int,
     model: str,
     messages: List[Dict[str, Any]],
@@ -124,11 +130,29 @@ def chat_n_times(
     return results
 
 
+def multi_hop_chat_n_times(
+    n: int,
+    model: str,
+    messages: List[Dict[str, Any]],
+    *,
+    max_workers: Optional[int] = None,
+    max_retries: int = 3,
+    backoff_base: float = 0.5,
+    jitter: float = 0.25,
+    **kwargs: Any,     
+) -> List[Dict[str, Any]]:
+    pass
+
+
+
+
+
+
 # ---------- Example ----------
 if __name__ == "__main__":
 
     # Parallel calls
-    outs = chat_n_times(
+    outs = single_chat_n_times(
         n=5,
         model="command-a-03-2025",
         messages=[{"role": "user", "content": "what is 987987 * 123123. just give the answer and nothing else"}],
