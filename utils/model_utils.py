@@ -90,8 +90,8 @@ def single_chat_n_times(
     messages: List[Dict[str, Any]],
     *,
     max_workers: Optional[int] = None,
-    max_retries: int = 3,
-    backoff_base: float = 0.5,
+    max_retries: int = 20,
+    backoff_base: float = 1.0,
     jitter: float = 0.25,
     **kwargs: Any,
 ) -> List[Dict[str, Any]]:
@@ -128,23 +128,6 @@ def single_chat_n_times(
 
     results.sort(key=lambda r: r["index"])
     return results
-
-
-def multi_hop_chat_n_times(
-    n: int,
-    model: str,
-    messages: List[Dict[str, Any]],
-    *,
-    max_workers: Optional[int] = None,
-    max_retries: int = 3,
-    backoff_base: float = 0.5,
-    jitter: float = 0.25,
-    **kwargs: Any,     
-) -> List[Dict[str, Any]]:
-    pass
-
-
-
 
 
 

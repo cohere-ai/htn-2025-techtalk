@@ -3,3 +3,8 @@
 {"question": "Tell us about a time you faced a significant coding or technical challenge. How did you approach solving it?", "max_word_count": 500}
 {"question": "How do you stay up-to-date with the latest tools, frameworks, and technologies in software engineering?", "max_word_count": 150}
 {"question": "Explain a situation where you had to collaborate with teammates (engineers, designers, or PMs) to deliver a project. What did you learn from the experience?", "max_word_count": 1000}
+{"question": "What motivates you to perform at your best, and how do you sustain that motivation during long or complex projects?", "max_word_count": 300}
+{"question": "Share an example of when you had to quickly learn a new technology, tool, or framework to complete a project. How did you approach it?", "max_word_count": 250}
+{"question": "How do you handle feedback from peers or managers, and can you give an example of how feedback helped you improve?", "max_word_count": 200}
+{"question": "Describe a situation where you had competing priorities or deadlines. How did you organize your work and ensure successful delivery?", "max_word_count": 400}
+{"question": "What do you believe makes an engineering team successful, and how do you personally contribute to fostering that kind of environment?", "max_word_count": 350}
