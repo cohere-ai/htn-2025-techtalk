@@ -6,8 +6,6 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "cohere>=5.17.0",
-    "langchain>=0.3.27",
-    "langchain-community>=0.3.29",
     "matplotlib>=3.10.6",
     "pandas>=2.3.2",
     "rank-bm25>=0.2.2",
