@@ -2,7 +2,7 @@
 ## Hack The North 2025
 By Eugene Cho
 
-This repo serves as a compliment to the workshop slides (see `slides.pdf`), containing demo code (warning it was vibe coded! use at your own risk!).
+This repo serves as a complement to the workshop slides (see `slides.pdf`), containing demo code (warning it was vibe coded! use at your own risk!).
 
 
 ## Setup
